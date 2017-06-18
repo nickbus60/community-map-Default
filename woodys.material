@@ -1,0 +1,834 @@
+import * from "managed_mats.material"
+// blender material: woodys
+material woodys : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys1spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit light_Map
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// blender material: woodys1
+material woodys1 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys1spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit light_Map
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys2
+material woodys2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys2spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit light_Map
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys3
+material woodys3 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys3spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit light_Map
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys4
+material woodys4 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys4.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys4spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit light_Map
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys5
+material woodys5 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys5.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys6
+material woodys6 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys6.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys6spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys7
+material woodys7 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys7.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys8
+material woodys8 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys8.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys8spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys9
+material woodys9 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys9.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys10
+material woodys10 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys10.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys10spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys12
+material woodys12 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys12.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys12spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys13
+material woodys13 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys13.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys13spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys14
+material woodys14 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys14.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys14spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys15
+material woodys15 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys15.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys15spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys16
+material woodys16 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture woodys16.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys16spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys17
+material woodys17 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit 
+            {
+                texture woodys17.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit Diffuse_Map
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: richshoes
+material richshoes : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+			alpha_rejection greater 128
+            alpha_to_coverage on
+            texture_unit Diffuse_Map
+            {
+                texture richshoes.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op alpha_blend
+            }
+			texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodiesawning
+material woodiesawning : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 0.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 0.0
+            specular 0.5 0.5 0.5 0.0 12.5
+            emissive 0.0 0.0 0.0 0.0
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+            texture_unit Diffuse_Map
+            {
+                texture woodiesawning.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op alpha_blend
+            }
+        }
+    }
+}
+
+// blender material: genericawning1
+material genericawning1 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            alpha_rejection greater 128
+            alpha_to_coverage on
+			texture_unit Diffuse_Map
+            {
+                texture genericawning1.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op alpha_blend
+            }
+			texture_unit 
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: genericawning2
+material genericawning2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+			alpha_rejection greater 128
+            alpha_to_coverage on
+            texture_unit Diffuse_Map
+            {
+                texture genericawning2.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op alpha_blend
+            }
+			texture_unit
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: metalroof
+material metalroof : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+            texture_unit Diffuse_Map
+            {
+                texture Metalroof01.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys18
+material woodys18 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+            texture_unit Diffuse_Map
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op replace
+            }
+        }
+    }
+}

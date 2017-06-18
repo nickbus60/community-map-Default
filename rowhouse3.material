@@ -1,0 +1,459 @@
+// blender material: rowhouse3concrete
+material rowhouse3concrete : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3concrete.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3stoop1
+material rowhouse3stoop1 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+        {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3stoop2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window3
+material rowhouse3window3 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3window3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window1
+material rowhouse3window1 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3window1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window2_1
+material rowhouse3window2_1 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3window2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3cornice
+material rowhouse3cornice : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3window3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3door1
+material rowhouse3door1 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3door1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window2_2
+material rowhouse3window2_2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3window2_3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3door1_2
+material rowhouse3door1_2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3door1_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window1_2
+material rowhouse3window1_2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3window1_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window3_2
+material rowhouse3window3_2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3window3_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window2_5
+material rowhouse3window2_5 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3window2_5.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window2_4
+material rowhouse3window2_4 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3window2_4.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4window1
+material rowhouse4window1 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse4_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4door1
+material rowhouse4door1 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse4_1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4mansard
+material rowhouse4mansard : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse4_4.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4door1_2
+material rowhouse4door1_2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse4_1_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4window1_2
+material rowhouse4window1_2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender        {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse4_2_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4mansard2
+material rowhouse4mansard2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse4_4_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4window2
+material rowhouse4window2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse4_3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4window2_2
+material rowhouse4window2_2 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse4_3_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window2_7
+material rowhouse3window2_7 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+       pass BaseRender
+	   {
+            
+            texture_unit Diffuse_Map
+            {
+                texture rowhouse3window2_7.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}

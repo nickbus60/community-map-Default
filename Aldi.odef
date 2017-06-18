@@ -1,0 +1,6 @@
+Aldi.mesh
+1, 1, 1
+beginmesh
+mesh Aldi-col.mesh
+endmesh
+end
